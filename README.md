@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# MyProjects
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto pessoal Fullstack foi desenvolvido do zero com o objetivo de consolidar meus conhecimentos em React e Node até o momento. Utilizei boas práticas de desenvolvimento, como a adição de comentários relevantes, a escolha de nomes adequados para as variáveis e a utilização da melhor forma possível da componentização do React, entre outras. Além disso, foi implementado um sistema de login (JWT no Backend e Context API no Frontend), um sistema de validação de formulários com Yup e Hook-Form e o styled-components foi utilizado para a estilização. Senti uma grande evolução neste projeto e pude identificar pontos em que posso melhorar, e já estou trabalhando nisso.
 
-## Available Scripts
+## 👀 Ver deploy! 👉 <a href="https://myprojects-frontend-react.vercel.app/">MyProjects</a>
 
-In the project directory, you can run:
+## 🖼 Screenshots do projeto
 
-### `npm start`
+### #1
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/2a3b5439-16c7-4fa4-8a2b-c9d70fa91318" alt="MyProject" width="800"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### #2
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/f0f86868-5185-4195-8a43-9ae8246fa4d2" alt="MyProject" width="800"/>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### #3
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/8e841150-98e7-47bd-a6d0-1b0ddfa552d1" alt="MyProject" width="800"/>
+</p>
 
-### `npm test`
+### #4
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/64b4af54-7d96-466b-928b-085e4b59d55b" alt="MyProject" width="800"/>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### #5
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/c71b661a-0c19-4ac1-9f55-e7c66586bbe0" alt="MyProject" width="800"/>
+</p>
 
-### `npm run build`
+### #6
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/13389d51-8901-4b16-8e93-aac57300cd31" alt="MyProject" width="800"/>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### #7
+<p align="center">
+  <img align="center" src="https://github.com/LazaroHenrique3/myprojects-frontend-react/assets/78514404/37171dc0-fa28-4bdd-9dda-75135a72d466" alt="MyProject" width="800"/>
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Para rodar o projeto utilize o comando (**npm start**) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Construído com
 
-### `npm run eject`
+* **React**
+* **Node(Backend)**
+* **MySQL(Banco de dados)**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✒️ Autor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Lázaro Henrique**  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
