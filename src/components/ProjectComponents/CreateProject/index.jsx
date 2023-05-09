@@ -3,6 +3,11 @@ import { useContext } from 'react';
 //Styles
 import * as c from './style'
 
+//Importando o Toasts
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 //React Hook Form
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -20,7 +25,7 @@ const schema = Yup.object({
 const CreateProject = () => {
 
   //Pegeando informações do Context
-  const { ProjectsCRUD  } = useContext(ProjectContext)
+  const { projects, ProjectsCRUD  } = useContext(ProjectContext)
 
   const {
     register,
@@ -30,6 +35,12 @@ const CreateProject = () => {
   } = useForm({ resolver: yupResolver(schema) });
 
   const handleSubmit = async ({title}) => {
+    //Validando duplicação de projetos
+    const existsProject = projects.find((project) => project.title === title)
+    if(existsProject){
+      toast.error("Este projeto já existe!")
+      return false
+    }
     await ProjectsCRUD.createProjectUser(title)
     //Limpando o input
     reset()

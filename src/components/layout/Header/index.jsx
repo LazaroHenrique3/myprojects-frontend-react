@@ -31,7 +31,7 @@ const Navbar = () => {
   //Realizando o logout
   const handleLogout = () => {
     const confirm = window.confirm('Tem certeza que deseja sair?')
-    if(confirm){
+    if (confirm) {
       logout()
     }
   }
@@ -67,11 +67,14 @@ const Navbar = () => {
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               {(authenticated && currentUrl !== '/') ?
                 <>
-                  <li className="nav-item">
-                    <Link className="nav-links" onClick={click ? profileHandleClick : handleOpenCloseModal}>
-                      <BsPersonCircle /> {user.name}
-                    </Link>
-                  </li>
+
+                  {(user.id !== 23) &&
+                    <li className="nav-item">
+                      <Link className="nav-links" onClick={click ? profileHandleClick : handleOpenCloseModal}>
+                        <BsPersonCircle /> {user.name}
+                      </Link>
+                    </li>}
+
                   <li className="nav-item">
                     <Link className="nav-links" onClick={handleLogout}>
                       <BsBoxArrowRight /> Sair
@@ -91,8 +94,8 @@ const Navbar = () => {
           </div>
         </nav>
       </c.NavbarContainer>
-      <ModalUser modalIsOpen={modalIsOpen} handleOpenCloseModal={handleOpenCloseModal}/>
-      </>
+      <ModalUser modalIsOpen={modalIsOpen} handleOpenCloseModal={handleOpenCloseModal} />
+    </>
   );
 }
 
