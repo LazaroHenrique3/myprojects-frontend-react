@@ -104,11 +104,11 @@ const Login = () => {
                 : <></>}
 
               <c.LoginInputLabel htmlFor="email">Email</c.LoginInputLabel>
-              <c.LoginInput placeholder={(!isLogin) ? 'teste@gmail.com' : ''} id="email" type="text" {...register("email")} />
+              <c.LoginInput placeholder={(isLogin) ? 'teste@gmail.com' : ''} id="email" type="text" {...register("email")} />
               <c.ErrorValidateMessage>{errors?.email?.message}</c.ErrorValidateMessage>
 
               <c.LoginInputLabel htmlFor="password">Senha</c.LoginInputLabel>
-              <c.LoginInput placeholder={(!isLogin) ? 'teste' : ''} id="password" type="password" {...register("password")} />
+              <c.LoginInput placeholder={(isLogin) ? 'teste' : ''} id="password" type="password" {...register("password")} />
               <c.ErrorValidateMessage>{errors?.password?.message}</c.ErrorValidateMessage>
 
               {(!isLogin) ?
