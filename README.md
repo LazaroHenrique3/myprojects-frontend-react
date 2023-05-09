@@ -3,6 +3,7 @@
 Este projeto pessoal Fullstack foi desenvolvido do zero com o objetivo de consolidar meus conhecimentos em React e Node até o momento. Utilizei boas práticas de desenvolvimento, como a adição de comentários relevantes, a escolha de nomes adequados para as variáveis e a utilização da melhor forma possível da componentização do React, entre outras. Além disso, foi implementado um sistema de login (JWT no Backend e Context API no Frontend), um sistema de validação de formulários com Yup e Hook-Form e o styled-components foi utilizado para a estilização. Senti uma grande evolução neste projeto e pude identificar pontos em que posso melhorar, e já estou trabalhando nisso.
 
 ## 👀 Ver deploy! 👉 <a href="https://myprojects-frontend-react.vercel.app/">MyProjects</a>
+Obs: Para logar no sistema use [email: teste@gmail.com, senha: teste] Esse usuário não permite alterações!
 
 ## 🖼 Screenshots do projeto
 
