@@ -114,7 +114,7 @@ const ModalUser = ({ modalIsOpen, handleOpenCloseModal }) => {
 
 
     const handleDeleteUser = async () => {
-        const confirm = window.confirm("Atenção! Todas a informações serão deletadas permanentemente, você confirma?")
+        const confirm = window.confirm("Atenção! Todas as informações serão deletadas permanentemente, você confirma?")
         if (confirm) {
             try {
                 await deleteUser(user.id)
