@@ -45,7 +45,6 @@ const Navbar = () => {
   const profileHandleClick = () => {
     handleClick()
     handleOpenCloseModal()
-    console.log('Jogue na minah')
   }
 
   //Relacionados ao modal
