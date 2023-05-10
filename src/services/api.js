@@ -16,7 +16,7 @@ export const getProjects = async (userId, titleSearch = "") => {
 }
 
 export const createProject = async (title, userId) => {
-    return api.post('/project', {title, user: userId})
+    return api.post(`/project/${userId}`, {title, user: userId})
 }
 
 export const deleteProject = async (projectId) => {

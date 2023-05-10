@@ -71,7 +71,7 @@ const Login = () => {
       setIsLogin(!isLogin)
       toast.success("Cadastro concluído com sucesso!")
     } catch (error) {
-      toast.error("Erro inesperado ao realizar cadastro!")
+      toast.error(error.response.data.msg)
     }
   }
 

@@ -38,7 +38,8 @@ export const ProjectProvider = ({ children }) => {
             setLoading(false)
             return data
         } catch (error) {
-            toast.error(error.response.data.msg)
+            setLoading(false)
+            toast.error('Erro inesperado, tente mais tarde!')
         }
     }
 
